@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Footer from "./Components/Footer";
+import Header from "./Components/Header";
 
 
 const userData = [
@@ -37,6 +38,7 @@ function App() {
     return (
         <div className="container my-4" style={{width: 400}}>
             <form className="form">
+                <Header />
                 <h3>Select Usss</h3>
                 <div className="form-check">
                     <label className="form-check-label ms-2">
