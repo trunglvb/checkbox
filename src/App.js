@@ -6,7 +6,7 @@ import Header from "./Components/Header";
 
 
 const userData = [
-    { name: "Jeevan" },
+    { name: "Jee" },
     { name: "Manish" },
     { name: "Prince" },
     { name: "Arti" },
